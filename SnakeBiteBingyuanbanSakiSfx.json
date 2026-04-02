@@ -1,0 +1,11 @@
+{
+  "id": "SnakeBiteBingyuanbanSakiSfx",
+  "name": "病院坂saki替换蛇咬音效",
+  "author": "wfrfred",
+  "description": "打出牌“蛇咬”时, 播放病院坂saki的嗷呜音效",
+  "version": "1.0.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [],
+  "affects_gameplay": false
+}
