@@ -9,7 +9,7 @@ namespace SnakeBiteSakiSfx.Patch;
 [HarmonyPatch(typeof(Snakebite), "OnPlay")]
 internal static class SnakeBitePatch
 {
-    static async void Prefix(Snakebite __instance, PlayerChoiceContext choiceContext, CardPlay cardPlay)
+    static void Prefix(Snakebite __instance, PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         CustomSfx.Instance?.Play("res://SnakeBiteBingyuanbanSakiSfx/Audio/SnakeBite.mp3", 1.5f);
     }
